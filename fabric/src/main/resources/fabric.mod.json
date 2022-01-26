@@ -7,7 +7,11 @@
   "authors": [
     "Witherking25"
   ],
-  "contact": {},
+  "contact": {
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/mine-tags-api",
+    "sources": "https://github.com/withertech/Mine-Tags",
+    "issues": "https://github.com/withertech/Mine-Tags/issues"
+  },
   "license": "GPL-3.0",
   "icon": "icon.png",
   "environment": "*",
