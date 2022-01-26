@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#fabric:ingots/brick",
+    "#fabric:ingots/copper",
+    "#fabric:ingots/gold",
+    "#fabric:ingots/iron",
+    "#fabric:ingots/netherite",
+    "#fabric:ingots/nether_brick"
+  ]
+}

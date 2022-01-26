@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#fabric:raw_materials/copper",
+    "#fabric:raw_materials/gold",
+    "#fabric:raw_materials/iron"
+  ]
+}

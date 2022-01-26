@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#fabric:glass_panes/colorless",
+    "#fabric:stained_glass_panes"
+  ]
+}

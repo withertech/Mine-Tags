@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#fabric:crops/beetroot",
+    "#fabric:crops/carrot",
+    "#fabric:crops/nether_wart",
+    "#fabric:crops/potato",
+    "#fabric:crops/wheat"
+  ]
+}

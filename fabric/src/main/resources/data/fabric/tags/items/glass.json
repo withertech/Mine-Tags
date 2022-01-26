@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#fabric:glass/colorless",
+    "#fabric:stained_glass",
+    "#fabric:glass/tinted"
+  ]
+}

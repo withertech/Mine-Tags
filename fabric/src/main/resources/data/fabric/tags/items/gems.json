@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#fabric:gems/amethyst",
+    "#fabric:gems/diamond",
+    "#fabric:gems/emerald",
+    "#fabric:gems/lapis",
+    "#fabric:gems/prismarine",
+    "#fabric:gems/quartz"
+  ]
+}

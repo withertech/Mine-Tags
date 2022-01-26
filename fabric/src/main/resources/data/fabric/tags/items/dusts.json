@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#fabric:dusts/glowstone",
+    "#fabric:dusts/prismarine",
+    "#fabric:dusts/redstone"
+  ]
+}

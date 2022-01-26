@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#fabric:rods/blaze",
+    "#fabric:rods/wooden"
+  ]
+}

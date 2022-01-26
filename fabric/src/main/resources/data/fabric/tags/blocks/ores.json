@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#fabric:ores/coal",
+    "#fabric:ores/copper",
+    "#fabric:ores/diamond",
+    "#fabric:ores/emerald",
+    "#fabric:ores/gold",
+    "#fabric:ores/iron",
+    "#fabric:ores/lapis",
+    "#fabric:ores/redstone",
+    "#fabric:ores/quartz",
+    "#fabric:ores/netherite_scrap"
+  ]
+}

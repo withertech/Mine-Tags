@@ -1,0 +1,19 @@
+{
+  "replace": false,
+  "values": [
+    "#fabric:storage_blocks/amethyst",
+    "#fabric:storage_blocks/coal",
+    "#fabric:storage_blocks/copper",
+    "#fabric:storage_blocks/diamond",
+    "#fabric:storage_blocks/emerald",
+    "#fabric:storage_blocks/gold",
+    "#fabric:storage_blocks/iron",
+    "#fabric:storage_blocks/lapis",
+    "#fabric:storage_blocks/quartz",
+    "#fabric:storage_blocks/raw_copper",
+    "#fabric:storage_blocks/raw_gold",
+    "#fabric:storage_blocks/raw_iron",
+    "#fabric:storage_blocks/redstone",
+    "#fabric:storage_blocks/netherite"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#fabric:nuggets/iron",
+    "#fabric:nuggets/gold"
+  ]
+}

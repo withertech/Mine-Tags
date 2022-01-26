@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "mine_tags",
+  "version": "${version}",
+  "name": "Mine Tags",
+  "description": "Unify Forge Tags and fabric",
+  "authors": [
+    "Witherking25"
+  ],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.withertech.fabric.MineTagsFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": ">=0.46.1+1.18",
+    "minecraft": ">=1.18.1",
+    "architectury": ">=3.4.9"
+  }
+}

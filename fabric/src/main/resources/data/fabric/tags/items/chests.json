@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#fabric:chests/ender",
+    "#fabric:chests/trapped",
+    "#fabric:chests/wooden"
+  ]
+}

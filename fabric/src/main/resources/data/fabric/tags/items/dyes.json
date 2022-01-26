@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "#fabric:dyes/white",
+    "#fabric:dyes/orange",
+    "#fabric:dyes/magenta",
+    "#fabric:dyes/light_blue",
+    "#fabric:dyes/yellow",
+    "#fabric:dyes/lime",
+    "#fabric:dyes/pink",
+    "#fabric:dyes/gray",
+    "#fabric:dyes/light_gray",
+    "#fabric:dyes/cyan",
+    "#fabric:dyes/purple",
+    "#fabric:dyes/blue",
+    "#fabric:dyes/brown",
+    "#fabric:dyes/green",
+    "#fabric:dyes/red",
+    "#fabric:dyes/black"
+  ]
+}
