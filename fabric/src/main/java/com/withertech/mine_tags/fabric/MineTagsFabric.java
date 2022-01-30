@@ -16,9 +16,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.withertech.fabric;
+package com.withertech.mine_tags.fabric;
 
-import com.withertech.MineTags;
+import com.withertech.mine_tags.MineTags;
 import net.fabricmc.api.ModInitializer;
 
 public class MineTagsFabric implements ModInitializer

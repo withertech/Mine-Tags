@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.withertech.util;
+package com.withertech.mine_tags.util;
 
 import com.google.common.collect.Streams;
 import net.minecraft.tags.Tag;

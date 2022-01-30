@@ -16,9 +16,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.withertech.tags.forge;
+package com.withertech.mine_tags.tags.forge;
 
-import com.withertech.tags.PlatformTags;
+import com.withertech.mine_tags.tags.PlatformTags;
 import net.minecraftforge.common.Tags;
 
 public class PlatformTagsItemsImpl

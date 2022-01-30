@@ -16,9 +16,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.withertech.tags;
+package com.withertech.mine_tags.tags;
 
-import com.withertech.MineTags;
+import com.withertech.mine_tags.MineTags;
 import dev.architectury.injectables.annotations.ExpectPlatform;
 import net.minecraft.tags.Tag;
 import net.minecraft.world.item.Item;

@@ -16,27 +16,21 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.withertech.tags.fabric;
+package com.withertech.mine_tags;
 
-import com.withertech.tags.PlatformTags;
-import dev.architectury.hooks.tags.TagHooks;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.tags.Tag;
-import net.minecraft.world.level.material.Fluid;
+import com.withertech.mine_tags.tags.PlatformTags;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-public class PlatformTagsFluidsImpl
+
+public class MineTags
 {
-	static
-	{
-		PlatformTags.Fluids.MILK = tag("milk");
-	}
+	public static final String MOD_ID = "mine_tags";
+
+	public static final Logger LOGGER = LogManager.getLogger();
 
 	public static void init()
 	{
-	}
-
-	private static Tag.Named<Fluid> tag(String name)
-	{
-		return TagHooks.optionalFluid(new ResourceLocation("fabric", name));
+		PlatformTags.init();
 	}
 }

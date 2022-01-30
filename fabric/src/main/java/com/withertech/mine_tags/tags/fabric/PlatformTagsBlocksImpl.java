@@ -16,9 +16,9 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package com.withertech.tags.fabric;
+package com.withertech.mine_tags.tags.fabric;
 
-import com.withertech.tags.PlatformTags;
+import com.withertech.mine_tags.tags.PlatformTags;
 import dev.architectury.hooks.tags.TagHooks;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.Tag;
