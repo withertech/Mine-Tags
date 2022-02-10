@@ -20,7 +20,6 @@ package com.withertech.mine_tags.tags;
 
 import com.withertech.mine_tags.MineTags;
 import com.withertech.mine_tags.util.TagUtil;
-import dev.architectury.injectables.annotations.ExpectPlatform;
 import net.minecraft.tags.Tag;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Item;
@@ -194,6 +193,7 @@ public class PlatformTags
 		public static final Tag.Named<Item> FENCES_NETHER_BRICK = TagUtil.makeItem("fences/nether_brick");
 		public static final Tag.Named<Item> FENCES_WOODEN = TagUtil.makeItem("fences/wooden");
 		public static final Tag.Named<Item> GEMS = TagUtil.makeItem("gems");
+		public static final Tag.Named<Item> GEMS_COAL = TagUtil.makeItem("gems/coal");
 		public static final Tag.Named<Item> GEMS_DIAMOND = TagUtil.makeItem("gems/diamond");
 		public static final Tag.Named<Item> GEMS_EMERALD = TagUtil.makeItem("gems/emerald");
 		public static final Tag.Named<Item> GEMS_AMETHYST = TagUtil.makeItem("gems/amethyst");

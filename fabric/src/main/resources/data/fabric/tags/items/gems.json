@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "#fabric:gems/amethyst",
+    "#fabric:gems/coal",
     "#fabric:gems/diamond",
     "#fabric:gems/emerald",
     "#fabric:gems/lapis",
