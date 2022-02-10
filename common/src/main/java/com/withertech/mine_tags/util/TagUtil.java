@@ -19,14 +19,40 @@
 package com.withertech.mine_tags.util;
 
 import com.google.common.collect.Streams;
-import net.minecraft.tags.Tag;
+import dev.architectury.injectables.annotations.ExpectPlatform;
+import net.minecraft.tags.*;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.material.Fluid;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
+import java.util.function.Supplier;
 
 public class TagUtil
 {
+	@ExpectPlatform
+	public static <T> Tag.Named<T> make(String name, Supplier<TagCollection<T>> collection)
+	{
+		throw new AssertionError();
+	}
+
+	public static Tag.Named<Block> makeBlock(String name)
+	{
+		return make(name, BlockTags::getAllTags);
+	}
+
+	public static Tag.Named<Item> makeItem(String name)
+	{
+		return make(name, ItemTags::getAllTags);
+	}
+
+	public static Tag.Named<Fluid> makeFluid(String name)
+	{
+		return make(name, FluidTags::getAllTags);
+	}
+
 	@Contract(value = "_, _ -> new", pure = true)
 	public static <T> @NotNull Tag<T> or(Tag<T> a, Tag<T> b)
 	{
